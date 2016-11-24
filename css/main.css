@@ -1,1 +1,81 @@
 /* Tu CSS va aqui */
+* {
+outline: 1px solid black;
+font-family: "Open Sans", sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+.container{
+    margin: 0 200px;
+}
+.col-8{
+    width: 70%;
+}
+.col-4{
+    width: 30%;
+    float: right;
+}
+.col-4 ul{
+    list-style: none;
+}
+.col-4 li{
+    display: inline-block;
+}
+.col-4 a{
+    text-decoration: none;
+    color: #ccc;
+}
+.col-8, .col-4{
+    display: inline-block;
+}
+.texto,.formulario {
+    right: 30px;
+}
+section {
+    background:#4e4c4c;
+}
+/*-------section----------*/
+
+.texto{
+    width: 60%;
+}
+.formulario{
+    width: 40%;
+    float: right;
+    
+}
+.clearfix{
+    display: table;
+}
+.clearfix:after{
+    content: " ";
+}
+.texto, .formulario{
+    float:left;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.formulario input, .formulario button{
+    width: 100%;
+    padding: 0px;
+    box-sizing: border-box;
+}
+  
+.@media(max-width:900px) {
+.container {    
+    width:800px;
+    text-align:center;
+    margin:0 auto;
+    }
+}
+
+
+.@media(max-width:700%) {
+    .container {
+        width:100%; 
+    }
+}
+  
